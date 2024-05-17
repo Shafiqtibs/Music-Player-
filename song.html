@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="song.css">
+</head>
+<body>
+    <div class="player">
+        <audio id="audioPlayer"></audio>
+        <button id="playPauseBtn">Play</button>
+        <input type="range" id="seekBar" value="0" max="100">
+        <ul id="playlist">
+            <li data-src="song1.mp3">Usiende Mbali</li>
+            <li data-src="song2.mp3" controls>Mama</li>
+            <li data-src="song3.mp3">Hellenah</li>
+            <li data-src="song4.mp3">Namagembe</li>
+        </ul>
+    </div>
+    <script src="song.js"></script>
+</body>
+</html>
